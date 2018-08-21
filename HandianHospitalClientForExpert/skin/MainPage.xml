@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="1024,768" mininfo="1024,768" maxinfo="1024,768" caption="0,0,0,50">
+    <Font name="微软雅黑" id="0" size="14" bold="false" italic="false" />
+    <Font name="微软雅黑" id="1" size="16" bold="false" italic="false" />
+    <Font name="微软雅黑" id="2" size="18" bold="false" italic="false" />
+	<Font name="微软雅黑" id="3" size="19" bold="false" italic="false" />
+	<Font name="微软雅黑" id="4" size="14" bold="true" italic="false" />
+    <Font name="微软雅黑" id="5" size="16" bold="true" italic="false" />
+	<Font name="微软雅黑" id="6" size="18" bold="true" italic="false" />
+	<Font name="微软雅黑" id="7" size="19" bold="true" italic="false" />
+	<Font name="微软雅黑" id="9" size="30" bold="true" italic="false" />
+	<Font name="微软雅黑" id="10" size="12" bold="false" italic="false" />
+		
+	<Default name="VScrollBar" value="button1normalimage=&quot;file=&apos;ScrollBar/scroll.png&apos; source=&apos;0,0,16,16&apos;&quot; button1hotimage=&quot;file=&apos;ScrollBar/scroll.png&apos; source=&apos;0,0,16,16&apos; mask=&apos;#FFFF00FF&apos;&quot; button1pushedimage=&quot;file=&apos;ScrollBar/scroll.png&apos; source=&apos;0,16,16,32&apos; mask=&apos;#FFFF00FF&apos;&quot; button1disabledimage=&quot;file=&apos;ScrollBar/scroll.png&apos; source=&apos;0,0,16,16&apos; mask=&apos;#FFFF00FF&apos;&quot; button2normalimage=&quot;file=&apos;ScrollBar/scroll.png&apos; source=&apos;0,32,16,48&apos; mask=&apos;#FFFF00FF&apos;&quot; button2hotimage=&quot;file=&apos;ScrollBar/scroll.png&apos; source=&apos;0,32,16,48&apos; mask=&apos;#FFFF00FF&apos;&quot; button2pushedimage=&quot;file=&apos;ScrollBar/scroll.png&apos; source=&apos;0,48,16,64&apos; mask=&apos;#FFFF00FF&apos;&quot; button2disabledimage=&quot;file=&apos;ScrollBar/scroll.png&apos; source=&apos;0,32,16,48&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbnormalimage=&quot;file=&apos;ScrollBar/scroll.png&apos; source=&apos;0,64,16,80&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbhotimage=&quot;file=&apos;ScrollBar/scroll.png&apos; source=&apos;0,64,16,80&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbpushedimage=&quot;ffile=&apos;ScrollBar/scroll.png&apos; source=&apos;0,64,16,80&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbdisabledimage=&quot;file=&apos;ScrollBar/scroll.png&apos; source=&apos;0,64,16,80&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railnormalimage=&quot;file=&apos;ScrollBar/scroll.png&apos; source=&apos;0,80,16,96&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railhotimage=&quot;file=&apos;ScrollBar/scroll.png&apos; source=&apos;0,80,16,96&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railpushedimage=&quot;file=&apos;ScrollBar/scroll.png&apos; source=&apos;0,96,16,112&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; raildisabledimage=&quot;file=&apos;ScrollBar/scroll.png&apos; source=&apos;0,80,16,96&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bknormalimage=&quot;file=&apos;ScrollBar/scroll.png&apos; source=&apos;0,128,16,146&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkhotimage=&quot;file=&apos;ScrollBar/scroll.png&apos; source=&apos;0,128,16,146&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkpushedimage=&quot;file=&apos;ScrollBar/scroll.png&apos; source=&apos;0,128,16,146&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkdisabledimage=&quot;file=&apos;ScrollBar/scroll.png&apos; source=&apos;0,128,16,146&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; " />
+    <Default name="HScrollBar" value="button1normalimage=&quot;file=&apos;ScrollBar/scrollH.png&apos; source=&apos;0,0,16,16&apos;&quot; button1hotimage=&quot;file=&apos;ScrollBar/scrollH.png&apos; source=&apos;0,0,16,16&apos; mask=&apos;#FFFF00FF&apos;&quot; button1pushedimage=&quot;file=&apos;ScrollBar/scrollH.png&apos; source=&apos;16,0,32,16&apos; mask=&apos;#FFFF00FF&apos;&quot; button1disabledimage=&quot;file=&apos;ScrollBar/scrollH.png&apos; source=&apos;0,0,16,16&apos; mask=&apos;#FFFF00FF&apos;&quot; button2normalimage=&quot;file=&apos;ScrollBar/scrollH.png&apos; source=&apos;32,0,48,16&apos; mask=&apos;#FFFF00FF&apos;&quot; button2hotimage=&quot;file=&apos;ScrollBar/scrollH.png&apos; source=&apos;32,0,48,16&apos; mask=&apos;#FFFF00FF&apos;&quot; button2pushedimage=&quot;file=&apos;ScrollBar/scrollH.png&apos; source=&apos;48,0,64,16&apos; mask=&apos;#FFFF00FF&apos;&quot; button2disabledimage=&quot;file=&apos;ScrollBar/scrollH.png&apos; source=&apos;32,0,48,16&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbnormalimage=&quot;file=&apos;ScrollBar/scrollH.png&apos; source=&apos;64,0,80,16&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbhotimage=&quot;file=&apos;ScrollBar/scrollH.png&apos; source=&apos;64,0,80,16&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbpushedimage=&quot;ffile=&apos;ScrollBar/scrollH.png&apos; source=&apos;64,0,80,16&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbdisabledimage=&quot;file=&apos;ScrollBar/scrollH.png&apos; source=&apos;64,0,80,16&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railnormalimage=&quot;file=&apos;ScrollBar/scrollH.png&apos; source=&apos;80,0,96,16&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railhotimage=&quot;file=&apos;ScrollBar/scrollH.png&apos; source=&apos;80,0,96,16&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railpushedimage=&quot;file=&apos;ScrollBar/scrollH.png&apos; source=&apos;96,0,112,16&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; raildisabledimage=&quot;file=&apos;ScrollBar/scrollH.png&apos; source=&apos;80,0,96,16&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bknormalimage=&quot;file=&apos;ScrollBar/scrollH.png&apos; source=&apos;128,0,146,16&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkhotimage=&quot;file=&apos;ScrollBar/scrollH.png&apos; source=&apos;128,0,146,16&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkpushedimage=&quot;file=&apos;ScrollBar/scrollH.png&apos; source=&apos;128,0,146,16&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkdisabledimage=&quot;file=&apos;ScrollBar/scrollH.png&apos; source=&apos;128,0,146,16&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; " />
+	<VerticalLayout enabled="true" width="1024" height="768" >
+		<HorizontalLayout name="container_toptitle" enabled="true" width="1024" height="50" bkimage="bkimage/index_top.png">
+			<Label name="LabelTitleExpertName" font="0" float="true" pos="578,25,0,0"  width="400" height="14" textcolor="#FFFFFFFF"  align="right" />
+			<Label name="LabelTitleExpertImage" visible="false" float="true" pos="991,20,0,0"  width="24" height="24" bkimage="bkimage/top-user-head.png" />
+			<Button name="minbtn" float="true" pos="980,2,0,0" height="14" width="18"  bkimage="Button\min.png" />
+			<Button name="ButtonClose" float="true" pos="1000,2,0,0" height="14" width="18" enable="true" bkimage="file='Button/close.png'" />
+		</HorizontalLayout>
+		
+		<VerticalLayout name="container_login" visible="true" enabled="true" width="1024" height="718" >
+            <VerticalLayout enabled="true" width="1024" height="718" bkimage="bkimage/login.png"  >
+				<HorizontalLayout enabled="true" width="1024" height="232">
+                    <Label enable="true" float="true" pos="648,189,0,0" width="280" height="43" bkimage="Text/login-title.png" />
+                </HorizontalLayout>
+                <HorizontalLayout enabled="true" width="1024" height="83">
+                    <Edit name="EditMobileOnLogin" tooltip="用户名/手机号/邮箱" enable="true" float="true" pos="658,43,0,0" enabled="true" width="260" height="40" normalimage="Text/login-textbox-icon-user.png" focusedimage="Text/login-textbox-icon-user.png" nativebkcolor="#ffb6c1c7"  textpadding="45,3,4,3" font="2" textcolor="#FFFFFFFF"  />
+                </HorizontalLayout>
+                <HorizontalLayout enabled="true" width="1024" height="60">
+                    <Edit name="EditPWDOnLogin" tooltip="密码" float="true" pos="658,20,0,0" password="true" enabled="true" width="260" height="40" normalimage="Text/login-textbox-icon-pass.png" focusedimage="Text/login-textbox-icon-pass.png"  nativebkcolor="#ffb6c1c7"  textpadding="45,3,4,3" font="2" textcolor="#FFFFFFFF"  />
+                </HorizontalLayout>
+				<HorizontalLayout enabled="true" width="1024" height="27">
+                    <Button name="ButtonToResetPwd" text="忘记密码？" float="true" pos="658,13,0,0" enabled="true" width="260" height="14" textcolor="#FF004986" disabledtextcolor="#FFA7A6AA" font="4" align="right"/>
+                </HorizontalLayout>
+                <HorizontalLayout enabled="true" width="1024" height="74">
+                    <Button name="ButtonLogin"  float="true" pos="653,24,0,0" enabled="true" width="270" height="50" bkimage="Button/btn-login.png"  />
+                </HorizontalLayout>
+            </VerticalLayout>
+        </VerticalLayout>
+
+		<VerticalLayout name="container_resetpwd" visible="false" enabled="true" width="1024" height="718" bkimage="bkimage/login.png">
+			<HorizontalLayout enabled="true" width="1024" height="155"/>
+			<HorizontalLayout enabled="true" width="1024" height="34">
+				<Label enable="true" float="true" pos="735,0,0,0" width="105" height="34" bkimage="Text/login-title-WJMM.png" />
+			</HorizontalLayout>
+			<HorizontalLayout enabled="true" width="1024" height="76">
+				<Label text="手机号码" float="true" pos="593,36,0,0" enabled="true" width="80" height="40" textcolor="#FF004986" disabledtextcolor="#FFA7A6AA" font="4" align="left" />
+				<Edit name="EditPhoneOnResetPwd" float="true" pos="658,36,0,0" enabled="true" width="260" height="40" normalimage="Text/login-textbox-bg.png" focusedimage="Text/login-textbox-bg.png"  nativebkcolor="#ffb6c1c7"  textpadding="20,3,4,3" font="2" textcolor="#FFFFFFFF" />
+			</HorizontalLayout>
+			<HorizontalLayout enabled="true" width="1024" height="50">
+				<Label text="验证码" float="true" pos="593,10,0,0" enabled="true" width="80" height="40" textcolor="#FF004986" disabledtextcolor="#FFA7A6AA" font="4" align="left"  />
+				<Edit name="EditVerificationOnResetPwd" float="true" pos="658,10,0,0"  enabled="true" width="160" height="40" normalimage="Text/login-textbox-bg-s.png" focusedimage="Text/login-textbox-bg-s.png"  nativebkcolor="#ffb6c1c7"  textpadding="20,3,4,3" font="2" textcolor="#FFFFFFFF"  />
+				<Button name="ButtonSendResetVerificationOnResetPWD" float="true" pos="828,10,0" enabled="true" width="90" height="40" bkimage="Button/btn-sendcode.png"  />
+			</HorizontalLayout>
+			<HorizontalLayout enabled="true" width="1024" height="50">
+				<Label text="新密码" float="true" pos="593,10,0,0" enabled="true" width="80" height="40" textcolor="#FF004986" disabledtextcolor="#FFA7A6AA" font="4" align="left"  />
+				<Edit name="EditNewPwdOnResetPwd" password="true" float="true" pos="658,10,0,0" enabled="true" width="260" height="40" normalimage="Text/login-textbox-bg.png" focusedimage="Text/login-textbox-bg.png"  nativebkcolor="#ffb6c1c7"  textpadding="20,3,4,3" font="2" textcolor="#FFFFFFFF"  />
+			</HorizontalLayout>
+			<HorizontalLayout enabled="true" width="1024" height="50">
+				<Label text="确认密码" float="true" pos="593,10,0,0" enabled="true" width="80" height="40" textcolor="#FF004986" disabledtextcolor="#FFA7A6AA" font="4" align="left"  />
+				<Edit name="EditRepetPwdOnResetPwd" password="true" float="true" pos="658,10,0,0" enabled="true" width="260" height="40" normalimage="Text/login-textbox-bg.png" focusedimage="Text/login-textbox-bg.png"  nativebkcolor="#ffb6c1c7"  textpadding="20,3,4,3" font="2" textcolor="#FFFFFFFF"  />
+			</HorizontalLayout>
+			<HorizontalLayout enabled="true" width="1024" height="81">
+				<Button name="ButtonResetPwd" float="true" pos="653,31,0,0" enabled="true" width="270" height="50" bkimage="Button/btn-resetpwd.png"  />
+			</HorizontalLayout>
+			<HorizontalLayout enabled="true" width="1024" height="38">
+				<Button name="ButtonBackToLoginOnResetPwd" float="true" pos="729,24,0,0" enabled="true" width="107" height="14"  bkimage="Button/btn-backtologin.png" />
+			</HorizontalLayout>
+		</VerticalLayout>
+				
+        <HorizontalLayout name="container_mainpage" visible="false" enabled="true" width="1024" height="718" >
+			<HorizontalLayout enabled="true" width="1024" height="718">
+				<VerticalLayout enabled="true" bkcolor="#FF4c82c6" width="130" height="718"> 
+					<Label  width="130" height="7" bkimage="Option/top-bg.png" />				
+					<Option name="CheckAppointment" width="130" height="117" bkimage="Option/checkappointment_selected.png" selected="true"/>
+					<Option name="CurrentConsultation" width="130" height="117" bkimage="Option/currentappointment_normal.png" />
+                    <Option name="ConsultationRecord" width="130" height="117" bkimage="Option/record_normal.png"  />
+					<VerticalLayout width="130" height="16" bkimage="Option/bottom-bg.png" />
+					<VerticalLayout width="130" height="361" bkimage="Option/bottom-bg.png" />					
+                </VerticalLayout>
+
+				<VerticalLayout width="894" height="718">  
+					<TabLayout name="switchOperationType">
+						<HorizontalLayout width="894" height="718">
+							<Appointment />
+						</HorizontalLayout>
+						<HorizontalLayout width="894" height="718">
+							<CurrentConsultation />
+						</HorizontalLayout>
+						<HorizontalLayout  width="894" height="718">
+							<ConsultationRecord />							
+						</HorizontalLayout >
+					</TabLayout>        
+				</VerticalLayout>		
+            </HorizontalLayout>            
+        </HorizontalLayout>				
+    </VerticalLayout>
+</Window>

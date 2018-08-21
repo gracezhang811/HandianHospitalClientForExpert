@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="886,170">
+    <ListContainerElement enabled="true"  width="885" height="170">
+		<Label name="LabelAppointmentTimeOnCAMLine" text="" float="true" pos="0,0,0,0" enabled="true" text="" enabled="true" width="210" height="170" textcolor="#FF313131" disabledtextcolor="#FFA7A6AA" font="1" align="center" />
+		<Label  float="true" pos="210,15,0,0" enabled="true" enabled="true" width="1" height="140" bkcolor="#FFe3e4e8"  />
+		<Label name="LabelAppointmentClinicOnCAMLine" text="" float="true" pos="211,0,0,0" enabled="true" text="" enabled="true" width="456" height="170" textcolor="#FF313131" disabledtextcolor="#FFA7A6AA" font="1" align="center" />
+		<Label  float="true" pos="667,15,0,0" enabled="true" enabled="true" width="1" height="140" bkcolor="#FFe3e4e8"  />
+		<VerticalLayout float="true" pos="668,0,0,0" enabled="true" width="218" height="170">
+			<ListItemButton name="ButtonSendStartMsg"  float="true"  pos="50,17,0,0" enabled="true" width="118" height="36" bkimage="Button/cont-btn-meetingstarthint.png" />
+			<ListItemButton name="ButtonStartZoom" float="true"  pos="50,67,0,0" enabled="true" width="118" height="36" bkimage="Button/cont-btn-startmeeting.png" />
+			<ListItemButton name="ButtonToRecordAdviseOnCAMLine" float="true"  pos="50,117,0,0" enabled="true" width="118" height="36" bkimage="Button/cont-btn-record-suggestion.png" />          
+	   </VerticalLayout>
+    </ListContainerElement>
+</Window>
